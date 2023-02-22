@@ -110,7 +110,7 @@ add_dependencies(${PROJECT_NAME}_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catk
  )
 
 
-target_link_libraries(${PROJECT_NAME}_node ${CMAKE_CURRENT_SOURCE_DIR}/lib/MW_MotorDriver_armv7l.a)
+target_link_libraries(${PROJECT_NAME}_node ${CMAKE_CURRENT_SOURCE_DIR}/lib/MW_AHRS_armv7l.a)
 
 #############
 ## Install ##
